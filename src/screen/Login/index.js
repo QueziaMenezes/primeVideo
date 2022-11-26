@@ -31,7 +31,7 @@ export const Login = () => {
         <NewAmazon>É novo na Amazon?</NewAmazon>
         <ButtonCreate onPress={() => navigation.navigate("Oops")}></ButtonCreate>
         <TextCreate>Criar sua conta da Amazon</TextCreate>
-        <TextEnd>Condições de Uso         Política de Privacidade</TextEnd>
+        <TextEnd>Condições de Uso          Política de Privacidade</TextEnd>
         <Help>Ajuda</Help>
         <FooterText>c 2021-2022 Amazon.com, Inc. ou suas afiliadas</FooterText>
       </ContainerLogin>
