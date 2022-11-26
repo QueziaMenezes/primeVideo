@@ -1,15 +1,11 @@
-/*import { FlatList } from "react-native";
-
+import { StyleSheet, text, View } from "react-native";
+import icon from "../../../assets/icon.png";
+import { Container } from "../../components/Body/style";
+import { ImageLogo } from "./style.js";
 export const Home = () => {
-    const navigation = useNavigation();
-
-    function goBack() {
-        navigation.goBack();
-      }
-
     return (
-    <Container>
-        <FlatList/>
-    </Container>
-);
-}*/
+        <Container>
+                <ImageLogo source={icon}/>
+        </Container>
+    );
+};

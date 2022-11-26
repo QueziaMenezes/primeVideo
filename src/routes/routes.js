@@ -56,8 +56,8 @@ export function StackRoutes() {
           headerShown: false,
         }}
       >
-        <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Oops" component={Oops} />
+        <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="AboutMe" component={TabRoutes} />
         <Stack.Screen name="MyMovies" component={MyMovies} />
         <Stack.Screen name="Home" component={TabRoutes} />
