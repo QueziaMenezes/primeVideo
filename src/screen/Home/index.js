@@ -1,7 +1,6 @@
-import { All, Blue, Movie, Original, Series, Sport, Watch } from "./style.js";
-import { StyleSheet, Text, View } from "react-native";
+import { All, Blue, Movie, Original, Philip, Series, Sport, Watch } from "./style.js";
 import { Container } from "../../components/Body/style";
-import { ImageLogo } from "./style.js";
+import { PhilipKDicks } from "../../../assets/PhilipKDicks.png";
 import { useNavigation } from "@react-navigation/native";
 import { useState, useEffect } from "react";
 import { Header } from "../../components/Header/index.js";
@@ -10,6 +9,7 @@ export const Home = () => {
     const navigation = useNavigation();
 
     const [movie, setMovie] = useState([]);
+
     return (
         <Container>
             <Header/>
@@ -33,7 +33,7 @@ export const Home = () => {
                     </TouchableOpacity>
                     <TouchableOpacity>
                         <Original>- Amazon Originais e exclusivos</Original>
-                    </TouchableOpacity>           
+                    </TouchableOpacity>   
         </Container>
     );
 };

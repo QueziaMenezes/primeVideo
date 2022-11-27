@@ -56,18 +56,25 @@ export const Original = styled.Text`
     width: 200px;
 `;
 
+export const Philip = styled.Image`
+    height: 267px;
+    left: 0px;
+    top: 0px;
+    width: 422px;
+`;
+
 export const Prime = styled.Text`
-   color: #FFFFFF;
-   font-style: normal;
-   font-weight: 700;
-   font-size: 22px;
-   height: 36px;
-   left: 19px;
-   line-height: 27px;
-   letter-spacing: -0.04em;
-   position: absolute;
-   top: 500px;
-   width: 62px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    height: 36px;
+    left: 19px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    position: absolute;
+    top: 500px;
+    width: 62px;
 `;
 
 export const Series = styled.Text`
